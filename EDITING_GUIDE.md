@@ -110,5 +110,5 @@ npm run lint:style-contract
 1. Push your commits to the `main` (or `master`) branch.
 2. `.github/workflows/deploy.yml` builds the site and pushes the output to the `gh-pages` branch.
 3. In your GitHub repo:
-   - Go to **Settings -> Pages** and set the source branch to **`gh-pages`** (root `/`).
+   - Go to **Settings -> Pages** and set the source branch to **`gh-pages`** (root `/`), **not** `main` (GitHub's default `pages build and deployment` job on `main` uses legacy Jekyll 3.10 and will fail on `al_folio_core`).
    - Go to **Settings -> Actions -> General -> Workflow permissions** and select **Read and write permissions** so the deploy action can push to `gh-pages`.
