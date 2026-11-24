@@ -1,189 +1,140 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Joaquin Jordan
+  label: MS Computer Science Student
+  email: j.jordan@columbia.edu
+  location: New York, NY
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: MS in Computer Science student at Columbia University working on 3D vision, LLMs, and AI for education.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: jjordanoc
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: joaquinjordanoconnor
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Columbia University
+        location: New York, NY
+        url: https://www.cs.columbia.edu/
+        area: Computer Science
+        studyType: Master of Science
+        start_date: 2026-08
+        end_date: 2027-12
         highlights:
-          - Description 1.
-          - Description 2.
+          - Full Tuition Scholarship.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Universidad de Ingeniería y Tecnología (UTEC)
+        location: Lima, Peru
+        url: https://utec.edu.pe/
+        area: Computer Science
+        studyType: Bachelor of Science
+        end_date: 2026-07
+        score: "GPA: 19.12/20"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Graduated first in class.
+
+      - institution: University of California, Berkeley
+        location: Berkeley, CA
+        url: https://www.berkeley.edu/
+        area: Computer Science
+        studyType: Visiting Student
+        start_date: 2025-01
+        end_date: 2025-05
+        score: "GPA: 3.94/4"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Syntax AI
+        position: Co-Founder & CTO
+        location: Lima, Peru
+        start_date: 2023-02
+        end_date: 2024-06
+        summary: Speech-to-speech personalized AI English tutor for upskilling professionals in Latin America.
         highlights:
-          - Relativity
-          - Description 2.
+          - Built the product MVP and investor demos used during a $125k pre-seed raise, scaling Syntax to 5,000+ users; taught live English sessions with users, uncovering learning gaps and translating them into repeated-practice features.
+          - Developed long-term conversational memory and multi-agent personalization with 9 LLM agents for memory extraction, summarization, and routing, using OpenAI embeddings and Supabase vector search to retrieve memories.
+          - Engineered a speech-to-speech pipeline with streaming Azure transcription, LLM dialogue, and AWS TTS, plus asynchronous Whisper and LLM feedback for pronunciation, grammar, and vocabulary across 50+ hours of student audio per month.
+          - Automated CI/CD and mobile E2E testing with GitHub Actions, pytest, and Patrol across core user flows, replacing manual release testing and supporting weekly production releases.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+    Research Experience:
+      - company: Columbia University (Mobile X Lab)
+        position: Graduate Student Researcher
+        location: New York, NY
+        start_date: 2026-09
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
+          - Investigating robust 3D Gaussian Splatting training under low-light and varying illumination conditions (BlinkGS).
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Delft University of Technology (TU Delft, Networked Systems Group)
+        position: Research Intern
+        location: Delft, Netherlands
+        start_date: 2026-01
+        end_date: 2026-03
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "Privacy-Preserving Drone Control: Implemented data collection, DSP, and deep learning pipelines for 3D pose estimation from raw mmWave sensor data to control a ground drone through pointing gestures."
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Universidad de Ingeniería y Tecnología (UTEC, AI Research Group)
+        position: Undergraduate Researcher
+        location: Lima, Peru
+        start_date: 2025-08
+        end_date: 2026-07
+        highlights:
+          - "M3aSURE (Under Review): Proposed and implemented a reference-free metric for geometric consistency by probing 3D reconstruction transformer latent spaces, achieving state-of-the-art 0.874 AUC vs. 0.796 baseline."
+          - Created the AdvToys200 benchmark to stress-test geometric reasoning with color-matched adversarial samples; M3aSURE retained 89.0% adversarial accuracy vs. 49.5% baseline.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: University of California, Berkeley
+        position: Visiting Undergraduate Researcher, AI and Education
+        location: Berkeley, CA
+        start_date: 2025-01
+        end_date: 2025-05
+        highlights:
+          - "MAGIC (AAAI/EAAI-26): Proposed and implemented a zero-shot framework with 5 specialized LLM agents and an orchestrator, improving agreement with human essay scores from 0.613 to 0.766 QWK over single-agent baseline."
+          - Designed and ran experiments across 3 open-weight LLMs, building the vLLM inference and evaluation stack for scoring, per-trait reliability, and LLM-as-a-judge for feedback evaluation.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "MAGIC: Multi-Agent Argumentation and Grammar Integrated Critiquer"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Joaquín Jordán
+          - Xavier Yin
+          - Melissa Fabros
+          - Gireeja Ranade
+          - Narges Norouzi
+        publisher: Proceedings of the AAAI Conference on Artificial Intelligence (EAAI-26)
+        releaseDate: "2026"
+        url: https://github.com/magic-aes/MAGIC
+        summary: Zero-shot multi-agent evaluation system for student essays and argumentation feedback.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+    Projects:
+      - name: Real-Time 3D Heritage Reconstruction
+        summary: Crowdsourced 3D reconstruction platform using VGGT, 3D Gaussian Splatting, and serverless GPU inference on Modal.
+        highlights:
+          - Reduced point count by over 50% while preserving 0.851 PointCloudSSIM through voxel downsampling.
+        url: https://github.com/jjordanoc/3d-heritage-reconstruction
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - name: YachAI
+        summary: Offline mobile math tutor using edge LLM inference on low-end Android hardware.
+        highlights:
+          - Deployed a 2 GB Gemma 3n E2B model fully offline with a state-aware tool interface for 5-step visual math explanations and dynamically registered whiteboard animations.
+        url: https://github.com/jjordanoc/yachai
+
+      - name: Azure Speech SDK for Flutter (Unofficial)
+        summary: Open-source Flutter updates adding Dart sound null safety, iOS support, and pronunciation-assessment APIs.
+        highlights:
+          - Published to pub.dev and adopted by 100+ projects.
+        url: https://github.com/jjordanoc/azure_speech_recognition_null_safety
 
     Skills:
-      - name: Physics
-        level: Master
+      - name: Languages & Tools
         icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        keywords: "Python, Modal, Runpod, AWS, Azure, FastAPI, C/C++, Docker, Linux, Git"
+
+      - name: Machine Learning
+        icon: fa-solid fa-hashtag
+        keywords: "PyTorch, scikit-learn, Hugging Face, LLM fine-tuning, vLLM, RAG, Vector Databases, 3D Reconstruction, Gaussian Splatting"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Spanish
+        summary: "Native"
 
       - name: English
         summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
