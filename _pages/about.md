@@ -32,13 +32,13 @@ I'm Joaquin, an MS in Computer Science student at [Columbia University](https://
 
 <!-- Edit the lists below. Format: - **Title**: one-line description. Context · [GitHub](url) -->
 
-## 🔭 What I'm working on
+## What I'm working on
 
 - **BlinkGS**: 3D Gaussian Splatting under varying illumination and low-light conditions. _Mobile X Lab, Columbia_ · [GitHub](https://github.com/Rennylex/BlinkGS)
 - **CA-Gate**: flexible conditional activation steering using gates. · [GitHub](https://github.com/tklapp/steering_repo)
 - **ARENA sprints**: weekly AI alignment sprints at the Columbia AI Alignment Club. · [ARENA](https://learn.arena.education/)
 
-## 🗂️ What I've worked on
+## What I've worked on
 
 - **M3aSURE** (under review): probing 3D transformer latent spaces for geometric consistency. A reference-free metric that reaches 0.874 AUC vs. a 0.796 baseline. _UTEC AI Research Group, 2025–26_ · [GitHub](https://github.com/jjordanoc/m3asure)
 - **mmWave 3D pose**: 3D pose reconstruction with privacy-preserving mmWave sensing, used to steer a ground drone with pointing gestures. _TU Delft Networked Systems Group, 2026_ · [GitHub](https://github.com/barrydoooit/mwpose3d) <br> <small>3D Vision · 3D Sensing · Deep Learning · 3D Pose Estimation</small>
