@@ -40,13 +40,7 @@ I'm Joaquin, an MS in Computer Science student at Columbia University (graduatin
 
 - **M3aSURE** (under review): probing 3D transformer latent spaces for geometric consistency. A robust reference-free metric that reaches 0.874 AUC vs. a 0.796 baseline. _UTEC AI Research Group, 2025–26_ · [GitHub](https://github.com/jjordanoc/m3asure)
 - **mmWave 3D pose**: 3D pose reconstruction with privacy-preserving mmWave sensing, used to steer a ground drone with pointing gestures. _TU Delft Networked Systems Group, 2026_ · [GitHub](https://github.com/barrydoooit/mwpose3d)
-
-<!-- <br> <small>3D Vision · 3D Sensing · Deep Learning · 3D Pose Estimation</small> -->
-
 - **MAGIC** (EAAI/AAAI-26): a multi-agent evaluation system for education. Five LLM agents plus an orchestrator raised agreement with human essay scores from 0.613 to 0.766 QWK. _UC Berkeley, 2025_ · [AAAI-26 Proceedings](https://ojs.aaai.org/index.php/AAAI/article/view/41506) · [GitHub](https://github.com/magic-aes/MAGIC)
-
-<!-- <br> <small>Modal · vLLM · HuggingFace · LLM fine-tuning · LLM evaluation</small> -->
-
 - **Syntax** (Co-founder & CTO): speech-to-speech personalized AI English tutor; grew to 5,000+ users, backed by \$125k pre-seed raise from [UTEC Ventures](https://utecventures.com/) and [Platanus Ventures](https://platan.us/). _Lima, 2023–24_ · [Forbes Peru Top 100](https://forbes.pe/negocios/2025-10-28/listado-forbes-estas-son-las-100-mejores-startups-de-peru-en-2025-2/)
 
 ### Side projects
