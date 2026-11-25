@@ -4,18 +4,18 @@ Quick reference for updating your personal website (`jjordanoc.github.io`).
 
 ## Where to Edit Content
 
-| I want to change...                               | File                              | Notes                                                                                          |
-| ------------------------------------------------- | --------------------------------- | ---------------------------------------------------------------------------------------------- |
-| Bio, "What I'm working on", "What I've worked on" | `_pages/about.md`                 | Edit the Markdown lists directly; add/update `[GitHub](url)` links inline.                     |
-| Profile photo                                     | `_pages/about.md` + `assets/img/` | Drop the image into `assets/img/` and set `profile.image` in `_pages/about.md`.                |
-| Name, site title, description, URL                | `_config.yml`                     | Also controls `scholar` author highlighting and excluded files.                                |
-| Social icons (email, GitHub, LinkedIn, Scholar)   | `_data/socials.yml`               | Add e.g. `scholar_userid:` or `x_username:` when ready.                                        |
-| News / announcements                              | `_news/*.md`                      | Add a new `.md` file with front matter (template below).                                       |
-| Publications                                      | `_bibliography/papers.bib`        | Add `selected = {true}` to feature a paper on the home page.                                   |
-| Projects page                                     | `_projects/*.md`                  | One file per project; categories are `[current, past, side projects]` in `_pages/projects.md`. |
-| CV page                                           | `_data/cv.yml`                    | Uses RenderCV YAML format (`_pages/cv.md` sets `cv_format: rendercv` and optional `cv_pdf:`).  |
-| Show or hide top navigation pages                 | `_pages/*.md`                     | Set `nav: true` or `nav: false` and `nav_order:` in each page's front matter.                  |
-| GitHub profile / repository cards                 | `_data/repositories.yml`          | Uncomment repos once they are public (private repos render broken cards).                      |
+| I want to change...                               | File                                                    | Notes                                                                                          |
+| ------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Bio, "What I'm working on", "What I've worked on" | `_pages/about.md`                                       | Edit the Markdown lists directly; add/update `[GitHub](url)` links inline.                     |
+| Profile photo                                     | `_pages/about.md` + `assets/img/`                       | Drop the image into `assets/img/` and set `profile.image` in `_pages/about.md`.                |
+| Name, site title, description, URL                | `_config.yml`                                           | Also controls `scholar` author highlighting and excluded files.                                |
+| Social icons (email, GitHub, LinkedIn, Scholar)   | `_data/socials.yml`                                     | Add e.g. `scholar_userid:` or `x_username:` when ready.                                        |
+| News / announcements                              | `_news/*.md`                                            | Add a new `.md` file with front matter (template below).                                       |
+| Publications                                      | `_bibliography/papers.bib`                              | Add `selected = {true}` to feature a paper on the home page.                                   |
+| Projects page                                     | `_projects/*.md`                                        | One file per project; categories are `[current, past, side projects]` in `_pages/projects.md`. |
+| Resume page (PDF)                                 | `assets/pdf/joaquin_jordan_resume.pdf` + `_pages/cv.md` | Replace `assets/pdf/joaquin_jordan_resume.pdf` to update your resume.                          |
+| Show or hide top navigation pages                 | `_pages/*.md`                                           | Set `nav: true` or `nav: false` and `nav_order:` in each page's front matter.                  |
+| GitHub profile / repository cards                 | `_data/repositories.yml`                                | Uncomment repos once they are public (private repos render broken cards).                      |
 
 ---
 

@@ -2,17 +2,17 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: Joaquin
-middle_name:
-last_name: Jordan
+title: Joaquin Jordan # the website title (if blank, full name will be used instead)
+# first_name: Joaquin
+# middle_name:
+# last_name: Jordan
 contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Joaquin Jordan: MS in Computer Science student at Columbia University working on 3D vision, LLMs, and AI for education.
 keywords: Joaquin Jordan, Columbia University, computer vision, 3D reconstruction, machine learning, LLMs # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: µ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: σ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
 url: https://jjordanoc.github.io # the base hostname & protocol for your site
@@ -92,7 +92,7 @@ al_folio:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 posts_in_search: true
 bib_search: true
@@ -241,6 +241,10 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/projects.md
+  - _pages/publications.md
+  - _pages/repositories.md
+  - _projects/
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -475,7 +479,7 @@ enable_cookie_consent: false # enables GDPR-compliant cookie consent dialog (htt
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
-enable_darkmode: true # enables switching between light/dark modes
+enable_darkmode: false # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
